@@ -9,7 +9,6 @@ I build data pipelines and analytics workflows with a focus on reliable ingestio
 | Project | Tools | What it demonstrates |
 | --- | --- | --- |
 | [Orders analytics with dbt and Databricks](./dbt-project/README.md) | dbt Core, Databricks SQL, SQL | Loading seed data, standardizing order records, and summarizing revenue by status. |
-| [Reddit data pipeline](./RedditDataEngineering/README.md) | Python, Apache Airflow, Docker | Orchestrating a local data pipeline with environment-based configuration. |
 
 ## About
 
