@@ -1,0 +1,6 @@
+name: 'dbt_project'
+version: '1.0.0'
+profile: 'dbt_project'
+
+model-paths: ["models"]
+seed-paths: ["seeds"]

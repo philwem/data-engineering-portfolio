@@ -1,0 +1,42 @@
+version: 2
+
+seeds:
+  - name: raw_orders
+    description: Fictional order records used as the source for the analytics models.
+    columns:
+      - name: order_id
+        tests:
+          - not_null
+          - unique
+
+models:
+  - name: stg_orders
+    description: Cleaned order records with normalized status, date, and currency amount.
+    columns:
+      - name: order_id
+        tests:
+          - not_null
+          - unique
+      - name: order_date
+        tests:
+          - not_null
+      - name: status
+        tests:
+          - not_null
+      - name: amount
+        tests:
+          - not_null
+
+  - name: orders_summary
+    description: Order count and revenue aggregated by normalized order status.
+    columns:
+      - name: status
+        tests:
+          - not_null
+          - unique
+      - name: total_orders
+        tests:
+          - not_null
+      - name: total_revenue
+        tests:
+          - not_null

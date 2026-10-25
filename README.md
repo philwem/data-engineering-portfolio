@@ -1,11 +1,18 @@
 ![Philip M. Wemegah Data Engineering Banner](./Philip%20M.%20Wemegah%20Data%20Engineering%20Banner.png)
 
-This is a  portfolio of the projects I have designed with a major focus on implementing various data engineering tech and cloud services.
+# Philip Wemegah | Data Engineering Portfolio
 
-Connect or Reach me Via :
+I build data pipelines and analytics workflows with a focus on reliable ingestion, transformation, and clear, maintainable code. This repository contains practical projects that demonstrate those skills.
 
-LinkedIn 
-Email
+## Projects
 
-Links
-Here is an index of projects with the tech, domain and link.
+| Project | Tools | What it demonstrates |
+| --- | --- | --- |
+| [Orders analytics with dbt and Databricks](./dbt-project/README.md) | dbt Core, Databricks SQL, SQL | Loading seed data, standardizing order records, and summarizing revenue by status. |
+| [Reddit data pipeline](./RedditDataEngineering/README.md) | Python, Apache Airflow, Docker | Orchestrating a local data pipeline with environment-based configuration. |
+
+## About
+
+I’m interested in data engineering roles where I can build dependable pipelines, work with cloud data platforms, and make analytical data easier to use.
+
+Connect with me on [GitHub](https://github.com/philwem).
